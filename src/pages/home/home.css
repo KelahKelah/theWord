@@ -1,0 +1,97 @@
+.blog_header {
+    width: 100vw;
+    height: 8vh;
+    background-color: white;
+    border-bottom:rgba(0, 0, 0, 0.1) 1px solid;
+}
+.header_ul {
+    list-style: none;
+}
+.custom_container_fluid {
+    margin: 0px 50px 0px 50px;
+}
+.img_container {
+    width: 449.89px;
+    height: 256.98px;
+    margin: auto;
+}
+.blog_text_wrapper {
+    width: 449.89px;
+    height: 256.98px;
+    margin: auto;
+}
+.img_fig {
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+    /* max-width: 100%; */
+}
+.blog-content {
+    margin: auto;
+    background-color: black;
+}
+.author_img {
+    width: 75px;
+    height: 75px;
+    border-radius: 5rem;
+}
+.author_data {
+
+}
+.author_name {
+    font-size: 0.8em;
+    color: #000;
+    font-weight: 800;
+}
+.blog_detail {
+    font-size: 0.8em;
+    color: #888;
+}
+.blog_title {
+    font-weight: 900;
+    font-size: 1.1em;
+}
+.smaller_heading {
+    font-weight: 900;
+    font-size: 0.8em;
+    color: #222;
+}
+.blog_date {
+    color: #999;
+}
+.input_search {
+    border-style: none;
+    border: 1px #ccc solid;
+    border-radius: 2rem;
+    width: 270px;
+    color: #212529;
+    font-size: 0.8em;
+}
+.footer-row {
+    background-color: #f8f9fa;
+}
+.subscribe-button {
+    background-color: #f79918;
+    color: #fff;
+    border: 2px solid transparent;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    width: 100%;
+}
+.subscribe-form {
+    
+}
+.subscribe-label {
+    display: block;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.subscribe-input {
+    width: 100%;
+    border-radius: 7px;
+    border-style: 10px transparent solid;
+}
