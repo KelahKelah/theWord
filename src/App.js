@@ -1,9 +1,10 @@
 import './App.css';
-import {Home } from './pages/index'
+import {Home, SingleBlog } from './pages/index'
 
 function App() {
   return (
-      <Home />
+      // <Home />
+      <SingleBlog />
   );
 }
 

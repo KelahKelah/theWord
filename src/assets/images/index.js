@@ -1,12 +1,18 @@
-import test from "./mysteries.jpg"
-import ascension from './ascension.jpg'
-import sample from './sample.jpg'
+import JesusPraying from './jesusPraying.png'
 import avater from './avater.png'
-import sampleTree from './sampleTree.jpg'
+import JesusTemptation from './jesusTemptation.png'
+import logo from './logo.png'
+import Jesus from './jesus.png'
+import JesusIsRisen from './jesusIsRisen.png'
+import JesusTheShepherd from './jesusTheShepherd.png'
+import JesusWithChildren from './jesusWithChildren.png'
 export {
-    test,
-    sample,
-    ascension,
+    JesusPraying,
     avater,
-    sampleTree
+    logo,
+    Jesus,
+    JesusTemptation,
+    JesusIsRisen,
+    JesusTheShepherd,
+    JesusWithChildren,
 }

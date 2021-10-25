@@ -1,0 +1,11 @@
+.singleblog-smaller-title-wrapper {
+    font-weight: 900;
+    color: blueviolet;
+}
+.singleblog-smaller-heading-wrapper {
+    color: #888;
+}
+.singleBlog-row {
+    margin: auto;
+    border: black 2px solid;
+}
