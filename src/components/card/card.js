@@ -14,7 +14,7 @@ const BlogCard = ({item}) => {
                     <span className="blog_date">{item.date}</span>
                 </div>
                 <div className="larger_heading">
-                    <h3 className="blog_title my-1">{item.largerHeading}</h3>
+             <h3 className="blog_title my-1">{item.largerHeading}</h3>
                 </div>
                 <div className="blog_detail">
                     <p>{item.introDescription}</p>

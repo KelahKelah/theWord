@@ -1,10 +1,8 @@
-import './App.css';
-import {Home, SingleBlog } from './pages/index'
+import Approute from './approute';
 
 function App() {
   return (
-      // <Home />
-      <SingleBlog />
+    <Approute />
   );
 }
 

@@ -7,24 +7,24 @@ const SingleBlog = () => {
         // TAKES CONTINER AND ROW FROM PARENT 
         <div className="container-fluid my-5">
             <div className="row">
-                <article className="col-lg-7 bg-primar m-auto">
+                <article className="col-lg-7 m-auto">
                     <div className="d-flex justify-content-center">
-                        <img className="author_img" src={avater} alt="Blogger" />
+                        <img className="singleblog-author-img" src={avater} alt="Blogger" />
                     </div>
                     <div className="d-flex justify-content-center my-2">
-                        <p className="mb-0">blogData,author_name</p>
+                        <p className="singleblog-authur-name mb-0">Kuthor Ramble</p>
                     </div>
                     <div className="d-flex justify-content-center">
-                        <p>2/3/2012</p>
+                        <p className="singleblog-authur-date">2/3/2012</p>
                     </div>
-                    <div className="d-flex justify-content-center singleblog-smaller-title-wrapper">
-                        <h3>Your most unhappy customers are your greatest source of </h3>
+                    <div className="d-flex justify-content-center singleblog-smaller-heading-wrapper">
+                        <h3 className="singleblog-heading">Jesus the good shephard</h3>
                     </div>
                     <div className="singleblog-smaller-heading-wrapper d-flex justify-content-center my-4">
                         <h6>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </h6>
                     </div>
                     <div className="d-flex justify-content-center">
-                        <img src={JesusIsRisen } alt="The blog" />
+                        <img className="singleBlogImg" src={JesusIsRisen } alt="The blog" />
                     </div>
                     <div className="text-center my-5">
                         <p>

@@ -6,6 +6,7 @@ import Jesus from './jesus.png'
 import JesusIsRisen from './jesusIsRisen.png'
 import JesusTheShepherd from './jesusTheShepherd.png'
 import JesusWithChildren from './jesusWithChildren.png'
+import New from './new.svg'
 export {
     JesusPraying,
     avater,
@@ -15,4 +16,6 @@ export {
     JesusIsRisen,
     JesusTheShepherd,
     JesusWithChildren,
+    New
+    
 }
