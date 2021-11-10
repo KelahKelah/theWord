@@ -1,20 +1,22 @@
 import React from 'react'
-import {logo, JesusPraying, New, Jesus, avater, JesusTemptation, JesusIsRisen, JesusTheShepherd, JesusWithChildren} from '../../assets/images/'
-import { BlogCard } from '../../components'
+import {Jesus,} from '../../assets/images/'
+import { BlogCard, Pagination } from '../../components'
 import './home.css'
 
 const Home = () => {
     const blogData = [
-        { smallerHeading: "Lorem Dolor", image:`${New}` , date: "July 2, 2021", largerHeading: "Lorem ipsum", introDescription: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis", authorImage: `${avater}`, authorName: "Foo bar", authorHandle: "@oloo" },
-        { smallerHeading: "Lorem Dolor", image:`${JesusTemptation}` , date: "July 2, 2021", largerHeading: "The reborn", introDescription: "This story eh e too much eh Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis", authorImage: `${avater}`, authorName: "Edet Ofo", authorHandle: "@onovo" },
-        { smallerHeading: "Lorem Dolor", image:`${Jesus}` , date: "July 2, 2021", largerHeading: "Batism birth", introDescription: "Me sef i like the comment of , consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis", authorImage: `${avater}`, authorName: "Adela  ", authorHandle: "@ade" },
-        { smallerHeading: "Lorem Dolor", image:`${JesusIsRisen}` , date: "July 2, 2021", largerHeading: "Lorem ipsum", introDescription: "Lorem ipsu loquitor the way i will, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis", authorImage: `${avater}`, authorName: "Amaya Outa", authorHandle: "@maya" },
-        { smallerHeading: "Lorem Dolor", image:`${JesusTheShepherd}` , date: "July 2, 2021", largerHeading: "Transfiguration", introDescription: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis", authorImage: `${avater}`, authorName: "Renee Eke", authorHandle: "@renee" },
-        { smallerHeading: "Lorem Dolor", image:`${JesusWithChildren}` , date: "July 2, 2021", largerHeading: "The fish ", introDescription: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis", authorImage: `${avater}`, authorName: "Ayra Martins", authorHandle: "@ayra" },
+        {blogTitle: "Why God has special Love for David", blogImage: `${Jesus}`},
+        {blogTitle: "5 Verses to Revive Your Heart for Ministry", blogImage: `${Jesus}`},
+        {blogTitle: "Are You Submitting to the Word or the World?", blogImage: `${Jesus}`},
+        {blogTitle: "Why God had Special Love for Abraham", blogImage: `${Jesus}`},
+        {blogTitle: "7 Verses to Memorize for during a struggle", blogImage: `${Jesus}`},       
+        {blogTitle: "5 Questions Every Christian Woman Should Ask Herself", blogImage: `${Jesus}`},
+        {blogTitle: "3 Surprising Signs of a Prideful Heart", blogImage: `${Jesus}`},
+        {blogTitle: "Why We Can Thank Jesus Everyday", blogImage: `${Jesus}`},
     ]
     return(
         <div>
-            <section className="container-fluid m-auto verse-container py-5">
+            {/* <section className="container-fluid m-auto verse-container py-5">
                 <div className="row verse-card-row my-5">
                     <div className="col-md-2 verse-custom-col text-center">
                         <div>
@@ -58,10 +60,14 @@ const Home = () => {
                     </div> 
                     
                 </div>
-            </section>
+            </section> */}
 
             <section className="container-fluid">
-                <div className="row my-5">
+                <div>
+                    <h5 className="blog-page-title mt-5">ABIDE IN MY WORD</h5>
+                    <span className="custom-underline"></span>
+                </div>
+                <div className="row my-5 blog-row">
                      {blogData.map((item, index) => {
                          return(
                              <BlogCard key={index} item={item} />
@@ -69,9 +75,12 @@ const Home = () => {
                      })
                      }
                 </div>
+                <div className="d-flex justify-content-center my-5">
+                    <Pagination />
+                </div>
             </section>
 
-            <section className="container-fluid my-5">
+            {/* <section className="container-fluid my-5">
                 <div className="row">
                     <div className="col-lg-6 m-auto">
                         <div className="d-flex justify-content-center">
@@ -82,7 +91,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </div>
     )
 }

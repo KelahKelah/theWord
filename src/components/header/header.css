@@ -1,0 +1,9 @@
+.custom-menu-list {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.custom-active {
+    color: #f79918;
+    font-weight: 700;
+    font-size: 1.2em;
+}

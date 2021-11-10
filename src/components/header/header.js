@@ -1,5 +1,6 @@
 import React from "react";
 import {logo } from "../../assets/images";
+import './header.css'
 
 const Header = ({item}) => {
     return(
@@ -9,8 +10,10 @@ const Header = ({item}) => {
             </div>
             <nav>
                 <ul className="header_ul d-flex mb-0">
-                    <li className="custom-menu-list px-2">Home</li>
-                    <li className="custom-menu-list px-2">Info</li>
+                    <li className="custom-active px-3">Home</li>
+                    <li className="custom-menu-list px-3">Prayers</li>
+                    <li className="custom-menu-list px-3">Abide in My word</li>
+                    <li className="custom-menu-list px-3">Bible Verses</li>
                 </ul>
             </nav>
             <form>
