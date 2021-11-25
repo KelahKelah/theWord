@@ -5,26 +5,18 @@ import './singleBlog.css'
 const SingleBlog = () => {
     return(
         // TAKES CONTINER AND ROW FROM PARENT 
-        <div className="container-fluid my-5">
+        <div className="container-fluid ">
             <div className="row">
                 <article className="col-lg-7 m-auto">
-                    <div className="d-flex justify-content-center">
-                        <img className="singleblog-author-img" src={avater} alt="Blogger" />
-                    </div>
-                    <div className="d-flex justify-content-center my-2">
-                        <p className="singleblog-authur-name mb-0">Kuthor Ramble</p>
-                    </div>
-                    <div className="d-flex justify-content-center">
-                        <p className="singleblog-authur-date">2/3/2012</p>
-                    </div>
                     <div className="d-flex justify-content-center singleblog-smaller-heading-wrapper">
-                        <h3 className="singleblog-heading">Jesus the good shephard</h3>
-                    </div>
-                    <div className="singleblog-smaller-heading-wrapper d-flex justify-content-center my-4">
-                        <h6>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </h6>
+                        <h3 className="singleblog-heading my-5">Jesus the good shephard</h3>
                     </div>
                     <div className="d-flex justify-content-center">
                         <img className="singleBlogImg" src={JesusIsRisen } alt="The blog" />
+                    </div>
+                    <div className="d-flex justify-content-center my-2">
+                        <p className="singleblog-authur-name mb-0">By Kuthor Ramble</p>
+                        <p className="singleblog-authur-date">2 Dec, 2012</p>
                     </div>
                     <div className="text-center my-5">
                         <p>

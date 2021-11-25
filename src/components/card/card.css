@@ -1,3 +1,38 @@
-.blog-column {
+.blog_text_wrapper {
+    width: 269.95px;
+    height: 148px;
+}
+.img_container{
+    max-width: 281.95px;
+    height: 188.83px;
+    margin: auto;
+}
+.blog_text_wrapper {
+    max-width: 281.95px;
+    height: 188.83px;
+    margin: auto;
+}
+.img_fig {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.3rem;
+}
+.blog_title {
+    font-weight: 600;
+    font-size: 1.875em;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.blog_title:hover {
+    color: #f79918;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 429px) {
+    /* TEMPORARY HEIGHT FIX  */
+    .blog-col {
+        height: 350px;
+    }
     
 }
