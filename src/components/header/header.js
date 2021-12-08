@@ -1,5 +1,6 @@
 import React from "react";
 import {logo } from "../../assets/images";
+import {Link } from "react-router-dom"
 import './header.css'
 
 const Header = ({item}) => {
@@ -10,10 +11,10 @@ const Header = ({item}) => {
             </div>
             <nav>
                 <ul className="header_ul d-flex mb-0">
-                    <li className="custom-active px-3">Home</li>
-                    <li className="custom-menu-list px-3">Prayers</li>
-                    <li className="custom-menu-list px-3">Abide in My word</li>
-                    <li className="custom-menu-list px-3">Bible Verses</li>
+                    <Link className="header-link" to="/" ><li className="custom-active px-3">Home</li> </Link>
+                    <Link className="header-link" to="/prayer" ><li className="custom-menu-list px-3">Prayers</li> </Link>
+                    <Link className="header-link" to="/abide" ><li className="custom-menu-list px-3">Abide in My word</li> </Link>
+                    <Link className="header-link" to="/bible" ><li className="custom-menu-list px-3">Bible Verses</li> </Link>
                 </ul>
             </nav>
             <form>

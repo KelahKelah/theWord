@@ -16,7 +16,7 @@ const SingleBlog = () => {
                     </div>
                     <div className="d-flex justify-content-center my-2">
                         <p className="singleblog-authur-name mb-0">By Kuthor Ramble</p>
-                        <p className="singleblog-authur-date">2 Dec, 2012</p>
+                        <p className="singleblog-authur-date px-2">2 Dec, 2012</p>
                     </div>
                     <div className="text-center my-5">
                         <p>

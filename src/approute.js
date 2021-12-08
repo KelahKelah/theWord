@@ -31,7 +31,22 @@ const Approute = () => {
                     Component={SingleBlog}
                     exact
                     path="/single"
+                />  
+                <MainLayoutRoute 
+                    Component={SingleBlog}
+                    exact
+                    path="/prayer"
+                />                   
+                <MainLayoutRoute 
+                    Component={SingleBlog}
+                    exact
+                    path="/abide"
                 />                
+                <MainLayoutRoute 
+                Component={SingleBlog}
+                exact
+                path="/bible"
+                />  
             </Switch>
         </BrowserRouter>
     )
