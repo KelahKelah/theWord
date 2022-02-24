@@ -1,19 +1,22 @@
 .singleBlog-row {
-    margin: auto;
-    border: black 2px solid;
+    
 }
 .singleblog-authur-name {
-    color: #888;
+
 }
 .singleblog-authur-date {
-    color: #888;
+    
 }
 .singleblog-heading {
-    font-weight: 700;
-    font-size: 44px;
-    color: #000;
+  
 }
 .singleBlogImg {
-    width: 700px;
-    height: 300px;
+  
+}
+.sg-container-fluid {
+    width: 100%;
+    background-color: blue !important;
+}
+.sg-row {
+
 }

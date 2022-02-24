@@ -1,0 +1,56 @@
+.bc-col {
+    display: flex;
+    width: 100%;
+}
+.bc-header {
+    margin: 0px;
+    color: #000;
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 146.69%;
+}
+.bc-paragraph {
+    margin: 0px;
+    color: #9D9E9F;
+        
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 146.69%;
+}
+.bc-text-wrapper {
+    width: 80%;
+}
+.bc-img-wrapper{
+    width: 20%;
+}
+.eye {
+    display: flex;
+}
+.eye > p {
+    margin: 0px;
+}
+.bc-stats {
+    display: flex;
+    color: #A8A6A6;
+    justify-content: space-between;
+    width: 20%;
+}
+.bc-stats > p {
+    margin: 0px;
+}
+.blog_title {
+  
+}
+.blog_title:hover {
+    color: #f79918;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) and (min-width: 1440px ) {
+    
+}

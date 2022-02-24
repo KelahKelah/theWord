@@ -1,89 +1,9 @@
-.blog_header {
-    width: 100vw;
-    height: 8vh;
-    background-color: white;
-    border-bottom:rgba(0, 0, 0, 0.1) 1px solid;
-}
-.blog-row {
-    padding: 0px 100px  
-}
-.header_ul {
-    list-style: none;
-}
-.custom_container_fluid {
-    margin: 0px 50px 0px 50px;
-}
-.blog-page-title {
-    font-weight: 600;
-    font-size: 16px;
-    font-style: normal;
-    letter-spacing: 1px;
-    text-align: center;
-    text-transform: uppercase;
-}
-.input_search {
-    border-style: none;
-    border: 1px #ccc solid;
-    border-radius: 2rem;
-    width: 270px;
-    color: #212529;
-    font-size: 0.8em;
-}
-.footer-row {
-    background-color: #f8f9fa;
-}
-.subscribe-button {
-    background-color: #f79918;
-    color: #fff;
-    border: 2px solid transparent;
-    padding: 12px 20px;
-    border-radius: 30px;
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: .1rem;
-    text-transform: uppercase;
+.h-wrapper {
     width: 100%;
 }
-.subscribe-label {
-    display: block;
-    font-weight: 900 !important;
-    font-size: 1rem;
-}
-.subscribe-input {
+.h-container {
     width: 100%;
-    border-radius: 7px;
-    border-style: 10px transparent solid;
-
-    display: block;
-    padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    background-color: #fff;
-    border: 1px solid #ced4da;
 }
-.verse-custom-col {
-    height: 100px;
-    border-radius: 10px;
-    color: #ced4da;
-    background-color: #fff;
-    margin: auto;
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #efefef;
-}
-.custom-underline {
-    border-top: 5px solid #f79918;
-    width: 50px;
-}
-.custom-menu-list {
-    font-weight: 800;       
-}
-
-@media screen and (max-width: 429px) {
-    .blog-row {
-        padding: 0px;
-    }
+.h-row {
+    width: 100%;
 }

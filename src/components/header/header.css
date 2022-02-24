@@ -1,13 +1,33 @@
+.header-wrapper {
+    display: flex;
+    background-color: #FFFFFF;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
 .custom-menu-list {
-    font-weight: 700;
-    font-size: 1.2em;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    border-right: 1px solid #FFB800;
+    margin: 0px 10px;
+    color: #393939;
 }
 .custom-active {
     color: #f79918;
-    font-weight: 700;
-    font-size: 1.2em;
+    font-weight: 600;
+    font-size: 16px;
+    border-right: 1px solid #FFB800;
+
 }
 .header-link {
     text-decoration: none;
     color: black; 
+}
+.header-ul {
+    display: flex;
+    list-style: none;
+
 }
