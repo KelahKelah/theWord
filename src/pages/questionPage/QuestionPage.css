@@ -1,0 +1,33 @@
+.question-page-header {
+  padding: 40px 0 0 80px;
+}
+
+.question-page h1 {
+  font-family: Work Sans;
+  font-weight: 600;
+  font-size: 2.25rem;
+  line-height: 146.69%;
+}
+
+.question-page p {
+  font-family: Work Sans;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 155.69%;
+  /* margin-bottom: 0; */
+}
+
+.question-page-btn-div {
+  width: 20%;
+}
+
+.question-page-btn {
+  background-color: #ffb800;
+  color: black;
+  border-radius: 4px !important;
+  font-size: 0.875rem;
+}
+
+.tab-class {
+  margin: 20px 0;
+}

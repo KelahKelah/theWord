@@ -1,5 +1,5 @@
-import { ReactComponent as Eyes } from './eyesIcon.svg';
+import { ReactComponent as Eyes } from "./eyesIcon.svg";
+import Ask from "./question.svg";
+import Filter from "./filter.svg";
 
-export {
-    Eyes,
-}
+export { Eyes, Ask, Filter };
