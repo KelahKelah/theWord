@@ -1,5 +1,6 @@
-import React from 'react';
-import {Jesus , avater} from '../../assets/images'
+import React from 'react'
+import { Avater, Hugs } from '../../assets/images'
+import { FacebookIcon, TwitterIcon, InstagramIcon } from '../../assets/svgs'
 import './singleBlog.css'
 
 const SingleBlog = () => {
@@ -8,17 +9,29 @@ const SingleBlog = () => {
         <div className="sg-container-fluid">
             <div className="sg-row">
                 <article className="">
-                    <div className="singleblog-smaller-heading-wrapper">
-                        <h3 className="singleblog-heading">Jesus the good shephard</h3>
+                    <div className="sb-heading-wrapper">
+                        <h3 className="sb-heading">Jesus the good shephard</h3>
                     </div>
-                    <div className="">
-                        <img className="singleBlogImg" src={Jesus} alt="The blog" />
+
+                    <div className="sb-data-wrapper">
+                        <div className='sb-author-wrapper'>
+                            <img className="sb-img" src={Avater} alt="The blog" />
+                            <p className="sb-author">By Kuthor Ramble</p>
+                            <p className="sb-date">2 Dec, 2012</p>
+                            <p className="sb-read-min">8 mins read</p>
+                        </div>
+                        <div className='socials-icons-wrapper'>
+                            <FacebookIcon />
+                            <TwitterIcon />
+                            <InstagramIcon />
+                        </div>
                     </div>
-                    <div className="">
-                        <p className="">By Kuthor Ramble</p>
-                        <p className="">2 Dec, 2012</p>
+                    
+                    <div className="sb-img-wrapper">
+                        <img src={Hugs} alt="blog img" />
                     </div>
-                    <div className="">
+
+                    <div className="sb-text-wrapper">
                         <p> Listen because this topic is deep and if care is not taken could be completely 
                             misunderstood. In mathew chapter 12 : 2 when the pharisees condemned Jesus and his 
                             disciples for picking grains on a sabbath day, he reminded them of when david and his 

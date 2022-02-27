@@ -5,8 +5,7 @@
 .bc-header {
     margin: 0px;
     color: #000;
-
-    font-family: Work Sans;
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 34px;
@@ -15,8 +14,7 @@
 .bc-paragraph {
     margin: 0px;
     color: #9D9E9F;
-        
-    font-family: Work Sans;
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -42,9 +40,6 @@
 }
 .bc-stats > p {
     margin: 0px;
-}
-.blog_title {
-  
 }
 .blog_title:hover {
     color: #f79918;

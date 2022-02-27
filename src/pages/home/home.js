@@ -25,18 +25,6 @@ const Home = () => {
                     })
                     }
             </div> 
-
-            {/* <div>
-                <div>
-                    <p>I am the first</p>
-                    <a href="next">Next</a>
-                </div>
-
-                <div>
-                    <p>I am the second</p>
-                    <a href="next">Netx 2</a>
-                </div>
-            </div> */}
         </section>
     )
 }
