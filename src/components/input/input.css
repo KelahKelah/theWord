@@ -13,6 +13,7 @@
 ::placeholder { /* Chrome, Firefox, Opera, Safari  */
     background: #EBE9E9;
     opacity: 1; /* Firefox */
+    padding: 0px 10px;
   }
   
   :-ms-input-placeholder { /* Internet Explorer */

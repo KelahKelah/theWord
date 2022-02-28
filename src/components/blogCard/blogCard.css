@@ -1,12 +1,12 @@
 .bc-col {
     display: flex;
     width: 100%;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
 }
 .bc-header {
     margin: 0px;
     color: #000;
-    font-family: 'Work Sans', sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 34px;
     line-height: 146.69%;
@@ -14,8 +14,6 @@
 .bc-paragraph {
     margin: 0px;
     color: #9D9E9F;
-    font-family: 'Work Sans', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 146.69%;
@@ -46,6 +44,29 @@
     cursor: pointer;
 }
 
-@media screen and (min-width: 768px) and (min-width: 1440px ) {
-    
+@media only screen and (max-width: 492px) and (max-width: 768px) {
+    .bc-header-wrapper > h3{
+    font-size: 14px;
+    font-weight: 600;
+    }
+    .bc-paragraph {
+        font-size: 12px;
+    }
+    .bc-stats > p {
+        font-size: 12px;
+    }
+    .bc-stats > div {
+        font-size: 12px;
+    }
+    .bc-img-wrapper{
+        width: 40%;
+    }
+    /* .eye, .bc-stats {
+        display: flex;
+
+    } */
+    .eye-icon {
+        width: 20.25px;
+        height: 20.25px;
+    }
 }

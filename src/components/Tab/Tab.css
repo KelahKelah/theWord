@@ -1,0 +1,61 @@
+.tab-btn {
+  width: 10%;
+}
+
+.filter {
+  border-radius: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tab-first {
+  display: flex;
+  align-items: center;
+}
+
+.tab-list ul {
+  display: flex;
+  list-style: none;
+}
+
+.tab-list ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  float: left;
+  width: calc(100% / 3 - 7px);
+  line-height: 40px;
+  margin-right: 10px;
+  padding: 0 24px;
+  background-color: #ffdc833d;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 0.875rem;
+}
+
+.tab-list ul li:first-child {
+  background-color: #ffb800;
+}
+
+.question-count {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 155.69%;
+}
+
+.img-class {
+  font-size: 40px;
+}

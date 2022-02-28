@@ -6,8 +6,8 @@ import './singleBlog.css'
 const SingleBlog = () => {
     return(
         // TAKES CONTINER AND ROW FROM PARENT 
-        <div className="sg-container-fluid">
-            <div className="sg-row">
+        <div className="sb-container">
+            <div className="sb-row">
                 <article className="">
                     <div className="sb-heading-wrapper">
                         <h3 className="sb-heading">Jesus the good shephard</h3>

@@ -19,9 +19,9 @@ const Sidebar = () => {
                <div className='sb-catergory-wrapper'>
                    <h3>Categories</h3>
                    <ul className='sb-category'>
-                       <li>Bible Verses(12)</li>
-                       <li>Questions(26)</li>
-                       <li>Devotional(31)</li>
+                       <li>Bible Verses (12)</li>
+                       <li>Questions (26)</li>
+                       <li>Devotional (31)</li>
                    </ul>
                </div>
                <div className='sb-recommended-wrapper'>

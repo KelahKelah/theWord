@@ -1,3 +1,7 @@
+.sb-container {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+}
 .sb-data-wrapper {
     display: flex;
 }
@@ -5,9 +9,7 @@
     display: flex;
 }
 .sb-heading {
-    font-family: 'Work Sans', sans-serif;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
     line-height: 55px;
 }
@@ -20,22 +22,21 @@
     align-items: center;
 }
 .sb-author {
-    font-family: 'Work Sans', sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 500;
     color: #FFB800;
 }
 .sb-date, .sb-read-min {
     font-family: Work Sans;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
 }
 .sb-text-wrapper > p{
-    font-family: 'Work Sans', sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 26px;
+}
+
+@media only screen and (max-width: 492px) and (max-width: 768px) {
+    
 }
