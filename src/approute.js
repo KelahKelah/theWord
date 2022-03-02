@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, BrowserRouter, Route } from "react-router-dom";
 import { MainLayout } from "./components/";
-import { Home, QuestionPage, SingleBlog } from "./pages/";
+import { Home, QuestionPage, SingleBlog, Editor, Devotional } from "./pages/";
 
 const Approute = () => {
   const MainLayoutRoute = ({ Component }) => {
@@ -23,7 +23,8 @@ const Approute = () => {
         <MainLayoutRoute Component={Home} exact path="/" />
         <MainLayoutRoute Component={QuestionPage} exact path="/questions" />
         <MainLayoutRoute Component={SingleBlog} exact path="/single" />
-        <MainLayoutRoute Component={SingleBlog} exact path="/devotional" />
+        <MainLayoutRoute Component={Editor} exact path="/editor" />
+        <MainLayoutRoute Component={Devotional} exact path="/devotional" />
       </Switch>
     </BrowserRouter>
   );

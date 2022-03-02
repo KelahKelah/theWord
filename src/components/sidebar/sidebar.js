@@ -7,7 +7,6 @@ const Sidebar = () => {
         <aside className="sb-wrapper">
             <div className="sb-row">
                 <div className='sb-search-wrapper'>
-                   <p>Disscover what matters to you</p>
                    <Input 
                         className=""
                         type="search"
@@ -25,43 +24,33 @@ const Sidebar = () => {
                    </ul>
                </div>
                <div className='sb-recommended-wrapper'>
-                   <h3>Recommended articles</h3>
+                   <h3>Recently viewed</h3>
                    <div className='sb-recommended-content'>
-                       <div>
-                            <Button
-                                    buttonName="Trust" 
-                            />
-                       </div>
-                       <div>
-                            <Button
-                                buttonName="Fasting" 
-                            />
-                            <Button
-                                buttonName="Hunger" 
-                            />
-                       </div>
-                       <div>
+                       <div className='sb-row-recommended'>
                             <Button
                                 buttonName="Trust" 
                             />
-                       </div>
-                   </div>
-               </div>
-               <div className='sb-recently-viewed-wrapper'>
-                   <h3>Recently viewed</h3>
-                   <div>
-                       <div>
-                            <Button
-                                    buttonName="Fasting" 
-                            />
-                       </div>
-                       <div>
+                        
                             <Button
                                 buttonName="Fasting" 
-                        />
+                            />
+                            <Button
+                                buttonName="Revelation day" 
+                            />
+                        
+                            <Button
+                                buttonName="Trust" 
+                            />
+
+                            <Button
+                                buttonName="Enemy" 
+                            />
                        </div>
                    </div>
                </div>
+               {/* <div className='sb-recently-viewed-wrapper'>
+                <h3>Recommended articles</h3>
+               </div> */}
             </div>
         </aside>   
     )

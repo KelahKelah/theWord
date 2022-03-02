@@ -11,7 +11,7 @@
     font-family: 'Work Sans', sans-serif;
     font-size: 1rem;
     font-style: normal;
-    border-right: 1px solid #FFB800;
+    border-right: 2px solid #FFB800;
     padding: 0px 14px;
     color: #393939;
 }
@@ -19,7 +19,7 @@
     color: #f79918;
     font-weight: 600;
     font-size: 16px;
-    border-right: 1px solid #FFB800;
+    border-right: 2px solid #FFB800;
     padding: 0px 14px;
 }
 .header-link {
@@ -30,4 +30,7 @@
     display: flex;
     list-style: none;
 
+}
+@media only screen and (max-width: 786px) {
+    
 }
