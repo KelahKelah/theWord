@@ -3,6 +3,8 @@
     width: 100%;
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
+    border-bottom: 1px solid #CFC7C7;
+    padding: 30px 0px;
 }
 .bc-header {
     margin: 0px;
@@ -44,7 +46,7 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 492px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .bc-header-wrapper > h3{
     font-size: 14px;
     font-weight: 600;
@@ -61,10 +63,6 @@
     .bc-img-wrapper{
         width: 40%;
     }
-    /* .eye, .bc-stats {
-        display: flex;
-
-    } */
     .eye-icon {
         width: 20.25px;
         height: 20.25px;

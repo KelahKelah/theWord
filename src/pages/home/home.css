@@ -7,3 +7,9 @@
 .h-row {
   width: 100%;
 }
+.get-started {
+  background-color: #ffb800;
+  color: black;
+  border-radius: 4px !important;
+  font-size: 0.875rem;
+}

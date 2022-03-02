@@ -1,5 +1,5 @@
 import React from 'react'
-import { Avater, Hugs } from '../../assets/images'
+import { sbImg1 } from '../../assets/images'
 import { FacebookIcon, TwitterIcon, InstagramIcon } from '../../assets/svgs'
 import './singleBlog.css'
 
@@ -15,7 +15,7 @@ const SingleBlog = () => {
 
                     <div className="sb-data-wrapper">
                         <div className='sb-author-wrapper'>
-                            <img className="sb-img" src={Avater} alt="The blog" />
+                            {/* <img className="sb-img" src={sbImg1} alt="The blog" /> */}
                             <p className="sb-author">By Kuthor Ramble</p>
                             <p className="sb-date">2 Dec, 2012</p>
                             <p className="sb-read-min">8 mins read</p>
@@ -28,7 +28,7 @@ const SingleBlog = () => {
                     </div>
                     
                     <div className="sb-img-wrapper">
-                        <img src={Hugs} alt="blog img" />
+                        <img src={sbImg1} alt="blog img" />
                     </div>
 
                     <div className="sb-text-wrapper">

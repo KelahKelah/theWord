@@ -32,16 +32,11 @@
   right: 0px;
 }
 
-@media only screen and (max-width: 492px) and (max-width: 768px) {
-  .ml-sidebarWrapper {
+@media only screen and (max-width: 768px) {
+  .ml-sidebarWrapper, .ml-headerWrapper {
     display: none;
   }
   .ml-childrenWrapper {
     width: 100vw;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .ml-sidebarWrapper {
-    display: none;
   }
 }
