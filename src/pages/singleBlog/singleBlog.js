@@ -15,7 +15,7 @@ const SingleBlog = () => {
 
                     <div className="sb-data-wrapper">
                         <div className='sb-author-wrapper'>
-                            {/* <img className="sb-img" src={sbImg1} alt="The blog" /> */}
+                            {/* <img className="sb" src={sbImg1} alt="The blog" /> */}
                             <p className="sb-author">By Kuthor Ramble</p>
                             <p className="sb-date">2 Dec, 2012</p>
                             <p className="sb-read-min">8 mins read</p>
@@ -28,7 +28,7 @@ const SingleBlog = () => {
                     </div>
                     
                     <div className="sb-img-wrapper">
-                        <img src={sbImg1} alt="blog img" />
+                        <img className="sb-img" src={sbImg1} alt="blog img" />
                     </div>
 
                     <div className="sb-text-wrapper">
