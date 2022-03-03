@@ -37,8 +37,8 @@ const Home = () => {
     return(
       <> 
         <section>
-          <div>
-            <img src={bannerImg} alt="banner image" />
+          <div className="banner-img-wrapper">
+            <img className="banner-img" src={bannerImg} alt="banner image" />
           </div>
           <div>
             <Button 
