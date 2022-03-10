@@ -1,5 +1,6 @@
 import React from "react";
 import { Header, Sidebar, MobileHeader, Button, Input } from "../../components";
+import { HomeIcon, PlainWriteIcon, DevIcon, QuestionIcon } from "../../assets/svgs";
 import  './style.css'
 
 const MainLayout = ({children}) => {
@@ -11,20 +12,17 @@ const MainLayout = ({children}) => {
             {/* MOBILE  */}
             <div className="mobile-ml-headerWrapper">
                 <div className="m-searchbar-wrapper">
-                    <Input type="search" />
-                </div>
-                <div className="m-header-wrapper">
-                    
+                    <Input className="m-search-input" type="search" placeholder={"Search"}/>
                 </div>
                 <div className="mobile-recommended-wrapper">
-                    <Button className='mobile-recommended-button'
+                    <Button className=''
                         buttonName="Trust" 
                     />
                 
-                    <Button className='mobile-recommended-button'
+                    <Button className=''
                         buttonName="Fasting" 
                     />
-                    {/* <Button className='mobile-recommended-button'
+                    <Button className='mobile-recommended-button'
                         buttonName="Revelation day" 
                     />
                 
@@ -34,10 +32,15 @@ const MainLayout = ({children}) => {
 
                     <Button className='mobile-recommended-button'
                         buttonName="Enemy" 
-                    /> */}
+                    />
+                </div>
+                <div className="mobile-icon-wrapper">
+                    <HomeIcon className='mobile-icon' />
+                    <QuestionIcon className='mobile-icon' />
+                    <DevIcon className='mobile-icon' />
+                    <PlainWriteIcon className='mobile-icon' />
                 </div>
 
-                {/* <MobileHeader /> */}
             </div>
             {/* MOBILE */}
             <div className="ml-contentWrapper">

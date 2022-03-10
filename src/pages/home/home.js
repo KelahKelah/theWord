@@ -40,9 +40,9 @@ const Home = () => {
           <div className="banner-img-wrapper">
             <img className="banner-img" src={bannerImg} alt="banner image" />
           </div>
-          <div>
+          <div className="h-button-wrapper">
             <Button 
-              className="get-started"
+              className="h-button"
               buttonName="Start Writing"
               icon={Ask} 
             />
