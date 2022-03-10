@@ -1,11 +1,12 @@
-/* .sb-search-wrapper > p {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    margin: 0px 0px 10px 0px;
-} */
+.sb-search-wrapper {
+    width: 100%;
+}
+.sb-search-wrapper :focus {
+  outline: none;
+}
+.search-input {
+    width: 97%;
+}
 .sb-catergory-wrapper > h3 {
     font-family: 'Work Sans', sans-serif;
     font-size: 24px;
@@ -54,6 +55,8 @@
     justify-content: space-between;
 }
 
-@media only screen and (max-width: 768px) {
-    
+@media only screen and (max-width: 992px) {
+    .sb-recommended-button {
+        font-size: 14px !important;
+    }
 }

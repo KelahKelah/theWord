@@ -26,6 +26,10 @@
 .bc-img-wrapper{
     width: 20%;
 }
+.img-fig {
+    width: 100%;
+    object-fit: contain;
+}
 .eye {
     display: flex;
 }
