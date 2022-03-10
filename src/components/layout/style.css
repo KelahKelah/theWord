@@ -17,7 +17,7 @@
   position: relative;
   top: 80px;
   width: 100%;
-  margin: auto;
+  margin: 50px auto;
 }
 .ml-childrenWrapper {
   width: 63%;
@@ -35,19 +35,43 @@
 .mobile-ml-headerWrapper {
   display: none;
 }
-.mobile-recommended-wrapper {
-  display: flex;
-  width: 100vw;
-  /* background-color: darkgreen; */
-}
+
 @media only screen and (max-width: 768px) {
   .ml-sidebarWrapper, .ml-headerWrapper {
     display: none;
+    padding: 0;
   }
   .ml-childrenWrapper {
-    width: 100vw;
+    width: 100%;
+    padding: 0;
+  }
+  .ml-contentWrapper {
+    position: static;
+    top: 0px;
+    margin: auto;
+    width: 85%;
   }
   .mobile-ml-headerWrapper {
     display: block;
+  }
+  .mobile-recommended-wrapper, .mobile-icon-wrapper, .m-searchbar-wrapper {
+    display: flex;
+    width: 80%;
+    overflow-x: hidden;
+    margin: 20px auto;
+  }
+  .mobile-recommended-button {
+    font-size: 12px !important;
+    padding: 0px 25px !important;
+    line-height: 115% !important;
+    font-weight: 300 !important;
+  }
+  .mobile-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0px 20px;
+  }
+  .m-search-input {
+    width: 100%;
   }
 }

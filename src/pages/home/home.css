@@ -7,7 +7,7 @@
 .h-row {
   width: 100%;
 }
-.get-started {
+.h-button {
   background-color: #ffb800;
   color: black;
   border-radius: 4px !important;
@@ -15,14 +15,13 @@
 }
 .banner-img-wrapper {
   width: 100%;
-  margin: 50px 0px;
 }
 .banner-img {
   width: 100%;
 }
 
 @media only screen and (max-with: 768px) {
-  .banner-img-wrapper {
-    margin: 20px 0px;
+  .h-button-wrapper {
+    display: none !important;
   }
 }
