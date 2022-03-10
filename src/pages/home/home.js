@@ -10,7 +10,7 @@ const Home = () => {
       id: 1,
       header: "Why God has special Love for David",
       paragraph:
-        "Do you know that when we love ourselves more than we love other people, ....",
+        "Do you know that when we love ourselves more than we love other people.",
       eyeCount: "165",
       readTime: "20",
       blogImage: `${img1}`,
