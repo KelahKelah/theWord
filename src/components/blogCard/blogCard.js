@@ -12,7 +12,7 @@ const BlogCard = ({ item }) => {
                 <div className="bc-header-wrapper">
                     <h3 className="bc-header" onClick={()=>history.push('/single')} >{item.header}</h3>
                 </div>
-                <div>
+                <div className="bd-paragraph-wrapper">
                     <p className="bc-paragraph">{item.paragraph}</p>
                 </div>
                 <div className="bc-stats">
