@@ -1,6 +1,6 @@
 import React from "react";
 import { Header, Sidebar, MobileHeader, Button, Input } from "../../components";
-import { HomeIcon, PlainWriteIcon, DevIcon, QuestionIcon } from "../../assets/svgs";
+import { HomeIcon, PlainWriteIcon, DevIcon, QuestionIcon, ArrowIcon } from "../../assets/svgs";
 import  './style.css'
 
 const MainLayout = ({children}) => {
@@ -15,11 +15,11 @@ const MainLayout = ({children}) => {
                     <Input className="m-search-input" type="search" placeholder={"Search"}/>
                 </div>
                 <div className="mobile-recommended-wrapper">
-                    <Button className=''
+                    <Button className='mobile-recommended-button'
                         buttonName="Trust" 
                     />
                 
-                    <Button className=''
+                    <Button className='mobile-recommended-button'
                         buttonName="Fasting" 
                     />
                     <Button className='mobile-recommended-button'
@@ -32,6 +32,9 @@ const MainLayout = ({children}) => {
 
                     <Button className='mobile-recommended-button'
                         buttonName="Enemy" 
+                    />
+                    <ArrowIcon
+                    
                     />
                 </div>
                 <div className="mobile-icon-wrapper">

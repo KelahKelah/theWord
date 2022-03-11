@@ -10,7 +10,7 @@ import { ReactComponent as HomeIcon } from './homeIcon.svg';
 import { ReactComponent as DevIcon } from './devIcon.svg';
 import { ReactComponent as QuestionIcon } from './questionIcon.svg';
 import { ReactComponent as PlainWriteIcon } from './PlainWriteIcon.svg';
-
+import { ReactComponent as ArrowIcon } from './arrowIcon.svg';
 
 export {
     Eyes,
@@ -24,5 +24,6 @@ export {
     HomeIcon,
     DevIcon,
     QuestionIcon,
-    PlainWriteIcon
+    PlainWriteIcon,
+    ArrowIcon
 }

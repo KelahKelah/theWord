@@ -33,6 +33,15 @@ const Home = () => {
       readTime: "10",
       blogImage: `${img3}`,
     },
+    {
+      id: 4,
+      header: "When the yoke is called up ",
+      paragraph:
+        "Starting something you haven’t done before, but always wanted to do? ",
+      eyeCount: "16",
+      readTime: "3",
+      blogImage: `${img2}`,
+    },
   ];
     return(
       <> 
