@@ -1,5 +1,6 @@
 import React from "react";
-import { Header, Sidebar } from "../../components";
+import { Header, Sidebar, MobileHeader, Button, Input } from "../../components";
+import { HomeIcon, PlainWriteIcon, DevIcon, QuestionIcon, ArrowIcon } from "../../assets/svgs";
 import  './style.css'
 
 const MainLayout = ({children}) => {
@@ -8,12 +9,49 @@ const MainLayout = ({children}) => {
             <div className="ml-headerWrapper">
                 <Header />
             </div>
+            {/* MOBILE  */}
+            <div className="mobile-ml-headerWrapper">
+                <div className="m-searchbar-wrapper">
+                    <Input className="m-search-input" type="search" placeholder={"Search"}/>
+                </div>
+                <div className="mobile-recommended-wrapper">
+                    <Button className='mobile-recommended-button'
+                        buttonName="Trust" 
+                    />
+                
+                    <Button className='mobile-recommended-button'
+                        buttonName="Fasting" 
+                    />
+                    <Button className='mobile-recommended-button'
+                        buttonName="Revelation day" 
+                    />
+                
+                    <Button className='mobile-recommended-button'
+                        buttonName="Trust" 
+                    />
+
+                    <Button className='mobile-recommended-button'
+                        buttonName="Enemy" 
+                    />
+                    <ArrowIcon
+                    
+                    />
+                </div>
+                <div className="mobile-icon-wrapper">
+                    <HomeIcon className='mobile-icon' />
+                    <QuestionIcon className='mobile-icon' />
+                    <DevIcon className='mobile-icon' />
+                    <PlainWriteIcon className='mobile-icon' />
+                </div>
+
+            </div>
+            {/* MOBILE */}
             <div className="ml-contentWrapper">
                 <div className="ml-childrenWrapper">
                     {children}
                 </div>               
                 <div className="ml-sidebarWrapper"> 
-                <Sidebar /> 
+                    <Sidebar /> 
                 </div>
             </div>
         </div>

@@ -1,9 +1,9 @@
 import React from "react";
-import {useHistory} from 'react-router-dom'
-import {Eyes} from '../../assets/svgs/'
+import { useHistory } from 'react-router-dom'
+import { Eyes } from '../../assets/svgs/'
 import './blogCard.css'
 
-const BlogCard = ({item}) => {
+const BlogCard = ({ item }) => {
     const history = useHistory()
     return(
         // TAKES ROW AND CONTAINER FROM PARENT 
@@ -12,7 +12,7 @@ const BlogCard = ({item}) => {
                 <div className="bc-header-wrapper">
                     <h3 className="bc-header" onClick={()=>history.push('/single')} >{item.header}</h3>
                 </div>
-                <div>
+                <div className="bd-paragraph-wrapper">
                     <p className="bc-paragraph">{item.paragraph}</p>
                 </div>
                 <div className="bc-stats">
@@ -26,4 +26,4 @@ const BlogCard = ({item}) => {
         </article>
     )
 }
-export {BlogCard}
+export { BlogCard }

@@ -8,7 +8,7 @@ const Sidebar = () => {
             <div className="sb-row">
                 <div className='sb-search-wrapper'>
                    <Input 
-                        className=""
+                        className="search-input"
                         type="search"
                         placeholder="Search"
                         id=""
@@ -27,22 +27,22 @@ const Sidebar = () => {
                    <h3>Recently viewed</h3>
                    <div className='sb-recommended-content'>
                        <div className='sb-row-recommended'>
-                            <Button
+                            <Button className='sb-recommended-button'
                                 buttonName="Trust" 
                             />
                         
-                            <Button
+                            <Button className='sb-recommended-button'
                                 buttonName="Fasting" 
                             />
-                            <Button
+                            <Button className='sb-recommended-button'
                                 buttonName="Revelation day" 
                             />
                         
-                            <Button
+                            <Button className='sb-recommended-button'
                                 buttonName="Trust" 
                             />
 
-                            <Button
+                            <Button className='sb-recommended-button'
                                 buttonName="Enemy" 
                             />
                        </div>

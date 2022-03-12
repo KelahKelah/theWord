@@ -10,7 +10,7 @@ const Home = () => {
       id: 1,
       header: "Why God has special Love for David",
       paragraph:
-        "Do you know that when we love ourselves more than we love other people, ....",
+        "Do you know that when we love ourselves more than we love other people.",
       eyeCount: "165",
       readTime: "20",
       blogImage: `${img1}`,
@@ -33,6 +33,15 @@ const Home = () => {
       readTime: "10",
       blogImage: `${img3}`,
     },
+    {
+      id: 4,
+      header: "When the yoke is called up ",
+      paragraph:
+        "Starting something you haven’t done before, but always wanted to do? ",
+      eyeCount: "16",
+      readTime: "3",
+      blogImage: `${img2}`,
+    },
   ];
     return(
       <> 
@@ -40,9 +49,9 @@ const Home = () => {
           <div className="banner-img-wrapper">
             <img className="banner-img" src={bannerImg} alt="banner image" />
           </div>
-          <div>
+          <div className="h-button-wrapper">
             <Button 
-              className="get-started"
+              className="h-button"
               buttonName="Start Writing"
               icon={Ask} 
             />
