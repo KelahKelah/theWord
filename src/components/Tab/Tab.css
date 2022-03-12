@@ -1,7 +1,3 @@
-.tab-btn {
-  width: 10%;
-}
-
 .filter {
   border-radius: 0px;
   display: flex;
@@ -34,7 +30,7 @@
   justify-content: center;
   position: relative;
   float: left;
-  width: calc(100% / 3 - 7px);
+  /* width: calc(100% / 3 - 7px); */
   line-height: 40px;
   margin-right: 10px;
   padding: 0 24px;
@@ -58,4 +54,35 @@
 
 .img-class {
   font-size: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .tab {
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+
+  .tab-first {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tab-list ul {
+    padding-left: 0;
+  }
+
+  .filter {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .tab-list ul li:last-child {
+    display: none;
+  }
+
+  .tab-list ul li {
+    padding: 0 12px;
+  }
 }

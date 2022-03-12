@@ -10,8 +10,18 @@ export const Question = ({
 }) => {
   return (
     <div className="question">
+      <div className="profile">
+        {pic ? (
+          <div className="profile-img">
+            <img src={pic} alt="user" />{" "}
+          </div>
+        ) : (
+          <div className="profile-no-pic"></div>
+        )}{" "}
+        <p className="profile-name">{name}</p>
+      </div>
       <h4>{header}</h4>
-      <p>{text}</p>
+      <p className="question-div-text">{text}</p>
       <div className="question-insights">
         <ul className="question-list">
           <li>0 votes</li>
