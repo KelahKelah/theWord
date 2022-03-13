@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import { Header, Sidebar, MobileHeader, Button, Input } from "../../components";
 import { HomeIcon, PlainWriteIcon, DevIcon, QuestionIcon, ArrowIcon } from "../../assets/svgs";
+import { Home, Questions, Devotional } from "../../routes"
 import  './style.css'
 
 const MainLayout = ({children}) => {
@@ -38,10 +40,10 @@ const MainLayout = ({children}) => {
                     />
                 </div>
                 <div className="mobile-icon-wrapper">
-                    <HomeIcon className='mobile-icon' />
-                    <QuestionIcon className='mobile-icon' />
-                    <DevIcon className='mobile-icon' />
-                    <PlainWriteIcon className='mobile-icon' />
+                    <Link to={Home} ><HomeIcon className='mobile-icon' /></Link>
+                    <Link to={Questions} ><QuestionIcon className='mobile-icon' /> </Link>
+                    <Link to={Devotional} ><DevIcon className='mobile-icon' /></Link>             
+                    <Link to={Home} ><PlainWriteIcon className='mobile-icon' /></Link>
                 </div>
 
             </div>

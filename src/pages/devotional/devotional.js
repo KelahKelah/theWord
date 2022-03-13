@@ -4,7 +4,7 @@ const Devotional = () => {
 
     return(
         <div className="e-container">
-            <p>Devotional</p>
+            <h1>Coming soon .....</h1>
         </div>
     )
 }
