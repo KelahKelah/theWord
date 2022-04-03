@@ -1,0 +1,26 @@
+.devoCard-wrapper {
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32.166%;
+    margin: 0 0 15px 0;
+}
+.devoCard-wrapper > h6 {
+    margin: 0;
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 63.69%;
+    color: #333333;
+}
+.devoCard-wrapper > p {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}

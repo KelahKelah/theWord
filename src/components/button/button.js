@@ -1,7 +1,7 @@
 import React from "react";
 import "./button.css";
 
-const Button = ({ buttonName = "", className = "", imgClass, icon }) => {
+const Button = ({ buttonName, className, imgClass, icon }) => {
   return (
     <button className={`${className} b-tag`}>
       {icon ? (

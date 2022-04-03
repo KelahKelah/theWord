@@ -13,6 +13,9 @@ import Ask from "./question.svg";
 import Filter from "./filter.svg";
 import She from "./QImage.svg";
 import She2 from "./QImage.svg";
+import { ReactComponent as Down } from './down.svg';
+import { ReactComponent as Up } from './up.svg';
+import { ReactComponent as Right } from './up.svg';
 
 export {
   Eyes,
@@ -30,4 +33,7 @@ export {
   ArrowIcon,
   She,
   She2,
+  Down, 
+  Up,
+  Right
 };
