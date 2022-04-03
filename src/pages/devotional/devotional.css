@@ -20,11 +20,12 @@ page height, its dafe to do it this way*/
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    line-height: 35px;
     position: absolute;
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
+    line-height: 146.69%;
+    color: #333333;
 }
 .dev-card-group-container {
     margin: 40px 0;
@@ -36,5 +37,21 @@ page height, its dafe to do it this way*/
     justify-content: space-between;
 }
 @media screen and (max-width: 768px) {
+    .dev-wrapper section:first-of-type >h3 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .dev-wrapper section:first-of-type {
+        height: 15%;
+    }
+    .dev-wrapper section:first-of-type >h3 {
+        font-size: 17px; 
+        margin: 0;
+        width: 100%;
+        text-align: center;
+  }
 
 }
