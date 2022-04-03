@@ -7,11 +7,12 @@ import './header.css';
 const Header = () => {
     return(
         <header className="header-wrapper">
-            <div className="header-logoWrapper">                <Logo />
+            <div className="header-logoWrapper">                
+                <Logo />
             </div>
             <nav>
                 <ul className="header-ul">
-                    <NavLink activeClassName="custom-active" to={Home} ><li activeClassName="custom-active">Home</li></NavLink>
+                    <NavLink className="header-link" activeclassname="custom-active" to={Home} ><li activeclassname="custom-active">Home</li></NavLink>
                     <NavLink className="header-link" to={Questions} ><li className="custom-menu-list">Questions</li> </NavLink>
                     <NavLink className="header-link" to={Devotional} ><li className="custom-menu-list">Devotionals</li> </NavLink>
                 </ul>
@@ -19,4 +20,4 @@ const Header = () => {
         </header>
     )
 }
-export {Header}
+export { Header }

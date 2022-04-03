@@ -1,0 +1,57 @@
+/* banner image takes height from the main page wrapper height, so the banner image size increase with an increse in page size, 
+but since we would be using pagination to avoid more than 6 cards at once which  will cause an increase in  
+page height, its dafe to do it this way*/
+.dev-wrapper {
+    width: 100%;
+    height: 100%;
+}
+.dev-wrapper section:first-of-type {
+    background-color: #f2f2f2;
+    height: 32%;
+    width: 100%;
+    position: relative;
+}
+.dev-img {
+    width: 100%;
+    height: 100%;
+}
+.dev-wrapper section:first-of-type >h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 146.69%;
+    color: #333333;
+}
+.dev-card-group-container {
+    margin: 40px 0;
+}
+.dev-card-group-row {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+    .dev-wrapper section:first-of-type >h3 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .dev-wrapper section:first-of-type {
+        height: 15%;
+    }
+    .dev-wrapper section:first-of-type >h3 {
+        font-size: 17px; 
+        margin: 0;
+        width: 100%;
+        text-align: center;
+  }
+
+}

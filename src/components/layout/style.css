@@ -61,18 +61,23 @@
     margin: 37px auto;
   }
   .mobile-recommended-wrapper {
-    display: flex;
     width: 80%;
-    overflow-x: hidden;
-    margin: 20px auto;
+    display: flex;
     padding-bottom: 10px;
+    margin: 20px auto;
     border-bottom: 0.3px solid #d9d3d3;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .some {
+    transform: translate(30%, 30%)
   }
   .mobile-recommended-button {
     font-size: 14px !important;
-    padding: 0px 50px !important;
+    padding: 0px 10px !important;
     line-height: 115% !important;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
   }
   .mobile-icon {
     width: 40px;
@@ -87,8 +92,6 @@
 @media only screen and (max-width: 500px) {
   .mobile-recommended-button {
     font-size: 12px !important;
-    padding: 0px 25px !important;
-    line-height: 115% !important;
     font-weight: 300 !important;
   }
 }

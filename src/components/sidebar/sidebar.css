@@ -51,7 +51,10 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
+.sb-recommended-button {
+    padding: 5px 10px;
+    margin: 5px 0;
+}
 @media only screen and (max-width: 992px) {
     .sb-recommended-button {
         font-size: 14px !important;

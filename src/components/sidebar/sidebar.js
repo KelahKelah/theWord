@@ -39,18 +39,19 @@ const Sidebar = () => {
                             />
                         
                             <Button className='sb-recommended-button'
-                                buttonName="Trust" 
+                                buttonName="Freedom" 
                             />
 
                             <Button className='sb-recommended-button'
                                 buttonName="Enemy" 
                             />
+                             <Button className='sb-recommended-button'
+                                buttonName="Card" 
+                            />
                        </div>
                    </div>
                </div>
-               {/* <div className='sb-recently-viewed-wrapper'>
-                <h3>Recommended articles</h3>
-               </div> */}
+               
             </div>
         </aside>   
     )
