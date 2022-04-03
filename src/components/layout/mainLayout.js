@@ -30,7 +30,7 @@ const MainLayout = ({ children }) => {
                 </div>
 
                 <div className="mobile-recommended-wrapper">
-                    <Carousel show={3} slide={3} swiping={true} >                
+                    <Carousel show={2} slide={2} swiping={true} >                
                             <leftArrow></leftArrow> 
 
                             <Button className='mobile-recommended-button'
