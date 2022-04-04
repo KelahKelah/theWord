@@ -13,4 +13,4 @@ const Pagination = () => {
     )
 }
 
-export {Pagination}
+export { Pagination }

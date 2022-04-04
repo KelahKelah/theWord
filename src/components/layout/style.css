@@ -58,7 +58,8 @@
     display: flex;
     width: 80%;
     overflow-x: hidden;
-    margin: 37px auto;
+     margin: 37px auto;
+     justify-content: space-between;
   }
   .mobile-recommended-wrapper {
     width: 80%;
@@ -69,20 +70,23 @@
     align-items: center;
     justify-content: space-between;
   }
-  
   .some {
     transform: translate(30%, 30%)
   }
   .mobile-recommended-button {
     font-size: 14px !important;
-    padding: 0px 10px !important;
+    padding: 3px 30px !important;
     line-height: 115% !important;
     font-weight: 600 !important;
+  }
+  .mobile-recommended-button > div > div {
+    margin: 0;
   }
   .mobile-icon {
     width: 40px;
     height: 40px;
     margin: 0px 20px;
+    color: #333;
   }
   .m-search-input {
     width: 100%;

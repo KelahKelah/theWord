@@ -31,7 +31,6 @@ const Devotional = () => {
                         }
                 </div>
             </section> 
-            
         </div>
     )
 }

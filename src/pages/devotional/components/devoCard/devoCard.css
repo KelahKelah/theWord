@@ -5,14 +5,18 @@
     align-items: center;
     width: 32.166%;
     padding: 20px 0;
-    margin: 0 0 15px 0;
+    margin: 0 0 35px 0;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.03);
 }
 .devoCard-wrapper > h6 {
+
     margin: 0;
-    font-family: 'Yellowtail';
+    margin: -27px 0 0 0 ;
+    font-family: 'Yellowtail', cursive;
+    letter-spacing: 4px;
     font-style: normal;
     font-weight: 600;
-    font-size: 38px;
+    font-size: 34px;
     line-height: 63.69%;
     color: #333333;
 }

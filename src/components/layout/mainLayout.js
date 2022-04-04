@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom'
-import { Header, Sidebar, MobileHeader, Button, Input } from "../../components";
-import { HomeIcon, PlainWriteIcon, DevIcon, QuestionIcon, ArrowIcon } from "../../assets/svgs";
-import { Home, Questions, Devotional } from "../../routes"
 import { Carousel } from '@trendyol-js/react-carousel';
-
+import { Header, Sidebar, MobileHeader, Button, Input } from "../../components";
+import { Home, Questions, Devotional } from "../../routes"
+import { BiBible } from 'react-icons/bi'
+import { GoHome } from 'react-icons/go'
+import { BsQuestionDiamond, BsPencilSquare } from 'react-icons/bs'
 import './style.css'
 
 const MainLayout = ({ children }) => {
@@ -14,6 +15,10 @@ const MainLayout = ({ children }) => {
         { name: "Enemy" },
         { name: "Faith" },
         { name: "Soul" },
+        { name: "Money" },
+        { name: "Universe" },
+        { name: "Pride" },
+        { name: "Heaven" },
     ]
     const handleSlide = () => {
         setCurrentButton(currentButton + 3)
@@ -30,10 +35,10 @@ const MainLayout = ({ children }) => {
                 </div>
 
                 <div className="mobile-recommended-wrapper">
-                    <Carousel show={2} slide={2} swiping={true} >                
-                            <leftArrow></leftArrow> 
+                    <Carousel show={4} slide={4} swiping={true} >                
+                            {/* <leftArrow></leftArrow>  */}
 
-                            <Button className='mobile-recommended-button'
+                            {/* <Button className='mobile-recommended-button'
                                 buttonName="Andromeda" 
                             />
                             <Button className='mobile-recommended-button'
@@ -48,26 +53,24 @@ const MainLayout = ({ children }) => {
                             buttonName="relativity" 
                             /><Button className='mobile-recommended-button'
                             buttonName="diameter" 
-                            />
+                            /> */}
                         
 
-                            <rightArrow></rightArrow> 
-                        {/* {buttonArray.map((ele, ind) => {
+                            {/* <rightArrow></rightArrow>  */}
+                        {buttonArray.map((ele, ind) => {
                             return (
-                                <Button key={ind}
-                                    buttonName={ele.name} />
+                                <Button className="mobile-recommended-button" key={ind} buttonName={ele.name} />
                             )
-                        })} */}
-
+                        })}
                     </Carousel>
 
                 </div>
 
                 <div className="mobile-icon-wrapper">
-                    <Link to={Home} ><HomeIcon className='mobile-icon' /></Link>
-                    <Link to={Questions} ><QuestionIcon className='mobile-icon' /> </Link>
-                    <Link to={Devotional} ><DevIcon className='mobile-icon' /></Link>
-                    <Link to={Home} ><PlainWriteIcon className='mobile-icon' /></Link>
+                    <Link to={Home} ><GoHome className='mobile-icon' /></Link>
+                    <Link to={Questions} ><BsQuestionDiamond className='mobile-icon' /> </Link>
+                    <Link to={Devotional} ><BiBible className='mobile-icon' /></Link>
+                    <Link to={Home} ><BsPencilSquare className='mobile-icon' /></Link>
                 </div>
 
             </div>

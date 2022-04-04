@@ -12,6 +12,9 @@
   color: black;
   border-radius: 4px !important;
   font-size: 0.875rem;
+  font-weight: 700 ;
+  margin: 40px 0 !important;
+  padding: 11px 15px;
 }
 .banner-img-wrapper {
   width: 100%;
@@ -20,9 +23,19 @@
 .banner-img {
   width: 100%;
 }
-
+.h-pagination-wrapper {
+  margin: 35px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 @media only screen and (max-with: 768px) {
   .h-button-wrapper {
     display: none !important;
+  }
+}
+@media only screen and (max-with: 425px) {
+  .banner-img-wrapper {
+    width: 120%;
   }
 }
