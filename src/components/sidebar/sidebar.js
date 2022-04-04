@@ -30,7 +30,6 @@ const Sidebar = () => {
                             <Button className='sb-recommended-button'
                                 buttonName="Trust" 
                             />
-                        
                             <Button className='sb-recommended-button'
                                 buttonName="Fasting" 
                             />
@@ -48,6 +47,17 @@ const Sidebar = () => {
                              <Button className='sb-recommended-button'
                                 buttonName="Card" 
                             />
+                            <Button className='sb-recommended-button'
+                                buttonName="Food" 
+                            />
+
+                            <Button className='sb-recommended-button'
+                                buttonName="Bribe" 
+                            />
+                            <Button className='sb-recommended-button'
+                                buttonName="Sleep" 
+                            />
+
                        </div>
                    </div>
                </div>
