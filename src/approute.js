@@ -8,6 +8,7 @@ import {
   Editor,
   Devotional,
   AskQuestion,
+  QuestionAnswer,
 } from "./pages/";
 
 const Approute = () => {
@@ -30,6 +31,11 @@ const Approute = () => {
         <MainLayoutRoute Component={Home} exact path="/" />
         <MainLayoutRoute Component={QuestionPage} exact path="/questions" />
         <MainLayoutRoute Component={AskQuestion} exact path="/ask_questions" />
+        <MainLayoutRoute
+          Component={QuestionAnswer}
+          exact
+          path="/question_answer"
+        />
         <MainLayoutRoute Component={SingleBlog} exact path="/single" />
         <MainLayoutRoute Component={Editor} exact path="/editor" />
         <MainLayoutRoute Component={Devotional} exact path="/devotional" />

@@ -41,7 +41,7 @@
 }
 
 .tab-list ul li:first-child {
-  background-color: #ffb800;
+  background-color: #FFDC83B0;
 }
 
 .question-count {
@@ -81,8 +81,18 @@
   .tab-list ul li:last-child {
     display: none;
   }
+  .tab {
+    align-items: flex-end;
+    justify-content: start;
+  }
 
   .tab-list ul li {
     padding: 0 12px;
+  }
+
+  .tab-first {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }

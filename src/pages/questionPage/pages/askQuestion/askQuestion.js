@@ -1,10 +1,12 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import { Button } from "../../../../components";
 import { TextArea } from "../../../../components/textArea/textArea";
 import { TextField } from "../../../../components/textField/textField";
 import "./askQuestion.css";
 
 export const AskQuestion = ({ pic }) => {
+  const { push } = useHistory();
   return (
     <div className="ask-question">
       <h1>
@@ -43,6 +45,7 @@ export const AskQuestion = ({ pic }) => {
           type="submit"
           buttonName="Submit"
           className="ask-question-btn"
+          btnAction={() => push("/question_answer")}
         />
       </form>
     </div>

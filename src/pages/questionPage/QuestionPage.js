@@ -8,6 +8,11 @@ import "./QuestionPage.css";
 
 export const QuestionPage = () => {
   const { push } = useHistory();
+  const tabItems = [
+    { id: 1, label: "Newest" },
+    { id: 2, label: "Active" },
+    { id: 3, label: "Unanswered" },
+  ];
 
   return (
     <div className="question-page">
@@ -29,7 +34,13 @@ export const QuestionPage = () => {
         <img src={She} alt="Question banner Icon" className="banner-image" />
         {/* </picture> */}
       </div>
-      <Tab className="tab-class" />
+      <Tab
+        className="tab-class"
+        tabItems={tabItems}
+        questions="1435"
+        label="Questions"
+        buttonName="Filter"
+      />
       <div>
         {[1, 2, 3, 4, 5, 6].map(() => (
           <Question
