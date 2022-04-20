@@ -8,7 +8,8 @@ import { ReactComponent as InstagramIcon } from "./instagramIcon.svg";
 import { ReactComponent as FacebookIcon } from "./facebookIcon.svg";
 import { ReactComponent as QuestionIcon } from "./questionIcon.svg";
 import { ReactComponent as PlainWriteIcon } from "./PlainWriteIcon.svg";
-import { ReactComponent as ArrowIcon } from "./arrowIcon.svg";
+import { ReactComponent as ArrowRight } from "./arrowRight.svg";
+import { ReactComponent as ArrowLeft } from "./arrowLeft.svg";
 import Ask from "./question.svg";
 import Filter from "./filter.svg";
 import She from "./QImage.svg";
@@ -30,7 +31,8 @@ export {
   DevIcon,
   QuestionIcon,
   PlainWriteIcon,
-  ArrowIcon,
+  ArrowRight,
+  ArrowLeft,
   She,
   She2,
   Down, 

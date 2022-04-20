@@ -1,10 +1,12 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import { img1, img2, img3, bannerImg } from "../../assets/images";
 import { Ask } from "../../assets/svgs";
 import { BlogCard, Button, Pagination } from "../../components";
 import "./home.css";
 
 const Home = () => {
+  const history = useHistory()
   const blogData = [
     {
       id: 1,
@@ -50,6 +52,7 @@ const Home = () => {
               className="h-button"
               buttonName="Start Writing"
               icon={Ask} 
+              onClick={history.push('/write')}
             />
           </div>
         </section>

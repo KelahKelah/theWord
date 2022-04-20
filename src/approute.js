@@ -5,7 +5,7 @@ import {
   Home,
   QuestionPage,
   SingleBlog,
-  Editor,
+  PostBlog,
   Devotional,
   AskQuestion,
   QuestionAnswer,
@@ -31,13 +31,9 @@ const Approute = () => {
         <MainLayoutRoute Component={Home} exact path="/" />
         <MainLayoutRoute Component={QuestionPage} exact path="/questions" />
         <MainLayoutRoute Component={AskQuestion} exact path="/ask_questions" />
-        <MainLayoutRoute
-          Component={QuestionAnswer}
-          exact
-          path="/question_answer"
-        />
+        <MainLayoutRoute Component={QuestionAnswer} exact path="/question_answer" />
         <MainLayoutRoute Component={SingleBlog} exact path="/single" />
-        <MainLayoutRoute Component={Editor} exact path="/editor" />
+        <MainLayoutRoute Component={PostBlog} exact path="/write" />
         <MainLayoutRoute Component={Devotional} exact path="/devotional" />
       </Switch>
     </BrowserRouter>
