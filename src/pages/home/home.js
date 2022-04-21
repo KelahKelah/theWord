@@ -52,7 +52,7 @@ const Home = () => {
               className="h-button"
               buttonName="Start Writing"
               icon={Ask} 
-              onClick={history.push('/write')}
+              onClick={ ()=> history.push('/write') }
             />
           </div>
         </section>
@@ -73,4 +73,4 @@ const Home = () => {
       </>
     )
 }
-export {Home};
+export { Home };

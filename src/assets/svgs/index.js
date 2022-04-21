@@ -17,6 +17,9 @@ import She2 from "./QImage.svg";
 import { ReactComponent as Down } from './down.svg';
 import { ReactComponent as Up } from './up.svg';
 import { ReactComponent as Right } from './up.svg';
+import { ReactComponent as PenIcon } from './penIcon.svg';
+import { ReactComponent as TextIcon } from './textIcon.svg';
+import { ReactComponent as AlignIcon } from './alignIcon.svg';
 
 export {
   Eyes,
@@ -37,5 +40,8 @@ export {
   She2,
   Down, 
   Up,
-  Right
+  Right,
+  PenIcon,
+  TextIcon,
+  AlignIcon
 };
