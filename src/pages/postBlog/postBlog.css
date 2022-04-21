@@ -1,0 +1,39 @@
+.pb-form-wrapper {
+    width: 80%;
+    height: 100%;
+}
+.pb-form-wrapper :first-child > h6 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;    
+    color: #2E2D2A;
+    margin: 0;
+}
+.pb-form-wrapper div:nth-child(2)  {
+    margin: 50px 0px 70px 0;
+    height: 70%;
+}
+.pd-button {
+    padding: 10px 10px !important;
+} 
+.pb-text-area {
+    border-style: none;
+    background: #FFFFFF;
+    background-color: #F8F8F8;
+    width: 99.5%;
+    height: 90%;
+    font-family: 'Work Sans';
+}
+.pb-blog-tool {
+    background-color: #FFB800;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.pd-blog-tool, svg {
+    margin: 0 15px;
+}

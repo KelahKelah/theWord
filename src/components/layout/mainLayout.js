@@ -6,6 +6,7 @@ import { Home, Questions, Devotional } from "../../routes"
 import { BiBible } from 'react-icons/bi'
 import { GoHome } from 'react-icons/go'
 import { BsQuestionDiamond, BsPencilSquare } from 'react-icons/bs'
+import { ArrowRight, ArrowLeft} from '../../assets/svgs'
 import './style.css'
 
 const MainLayout = ({ children }) => {
@@ -35,28 +36,7 @@ const MainLayout = ({ children }) => {
                 </div>
 
                 <div className="mobile-recommended-wrapper">
-                    <Carousel show={4} slide={4} swiping={true} >                
-                            {/* <leftArrow></leftArrow>  */}
-
-                            {/* <Button className='mobile-recommended-button'
-                                buttonName="Andromeda" 
-                            />
-                            <Button className='mobile-recommended-button'
-                            buttonName="comma" 
-                            />
-                            <Button className='mobile-recommended-button'
-                            buttonName="comos" 
-                            />
-                            <Button className='mobile-recommended-button'
-                            buttonName="general" 
-                            /><Button className='mobile-recommended-button'
-                            buttonName="relativity" 
-                            /><Button className='mobile-recommended-button'
-                            buttonName="diameter" 
-                            /> */}
-                        
-
-                            {/* <rightArrow></rightArrow>  */}
+                    <Carousel show={3} slide={3} swiping={true} rightArrow={ <ArrowRight />}  leftArrow={ <ArrowLeft />}>                
                         {buttonArray.map((ele, ind) => {
                             return (
                                 <Button className="mobile-recommended-button" key={ind} buttonName={ele.name} />

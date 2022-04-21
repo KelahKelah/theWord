@@ -1,9 +1,16 @@
 import React from "react";
 import "./button.css";
 
-const Button = ({ buttonName, className, imgClass, icon }) => {
+const Button = ({
+  buttonName,
+  className,
+  imgClass,
+  icon,
+  onClick,
+  btnAction = () => {},
+}) => {
   return (
-    <button className={`${className} b-tag`}>
+    <button className={`${className} b-tag`} onClick={onClick}>
       {icon ? (
         <img src={icon} alt="btn-icon" className={`${imgClass} btn-icon`} />
       ) : (
@@ -13,4 +20,4 @@ const Button = ({ buttonName, className, imgClass, icon }) => {
     </button>
   );
 };
-export { Button };
+export { Button }

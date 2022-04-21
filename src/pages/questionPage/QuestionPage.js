@@ -1,4 +1,5 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import { Ask, She, She2 } from "../../assets/svgs";
 import { Button } from "../../components/button/button";
 import { Question } from "../../components/Question/Question";
@@ -6,6 +7,13 @@ import { Tab } from "../../components/Tab/Tab";
 import "./QuestionPage.css";
 
 export const QuestionPage = () => {
+  const { push } = useHistory();
+  const tabItems = [
+    { id: 1, label: "Newest" },
+    { id: 2, label: "Active" },
+    { id: 3, label: "Unanswered" },
+  ];
+
   return (
     <div className="question-page">
       <div className="question-page-header">
@@ -16,6 +24,7 @@ export const QuestionPage = () => {
               buttonName="Ask Question"
               icon={Ask}
               className="question-page-btn"
+              btnAction={() => push("/ask_questions")}
             />
           </div>
         </div>
@@ -25,7 +34,13 @@ export const QuestionPage = () => {
         <img src={She} alt="Question banner Icon" className="banner-image" />
         {/* </picture> */}
       </div>
-      <Tab className="tab-class" />
+      <Tab
+        className="tab-class"
+        tabItems={tabItems}
+        questions="1435"
+        label="Questions"
+        buttonName="Filter"
+      />
       <div>
         {[1, 2, 3, 4, 5, 6].map(() => (
           <Question

@@ -1,0 +1,33 @@
+.ta-field textarea {
+    background: rgba(255, 244, 215, 0.42);
+    border-radius: 3px;
+    width: 100%;
+    border: none;
+    min-height: 46px;
+    padding: 14px 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 20px;
+    outline: none;
+ }
+ 
+ .ta-field input::placeholder {
+    color: #CCC7C7;
+    background: #CCC7C7 !important;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 115.19%;
+ }
+ 
+ .ta-field label {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 146.69%;
+ }
+ 
