@@ -23,24 +23,6 @@ export const QuestionPage = () => {
           onClick={() => push("/ask_questions")}
         />
       </div>
-      {/* <div className="question-page-header">
-        <div className="question-text">
-          <h1>Find the best answer to your devotional questions</h1>
-          <div className="question-page-btn-div">
-            <Button
-              buttonName="Ask Question"
-              icon={Ask}
-              className="question-page-btn"
-              btnAction={() => push("/ask_questions")}
-            />
-          </div>
-        </div>
-        <picture>
-          <source sizes="(max-width: 1024px)" srcSet={She2} />
-          <source sizes="(max-width: 769px)" srcset={She} />
-        <img src={She} alt="Question banner Icon" className="banner-image" />
-        </picture>
-      </div> */}
       <Tab
         className="tab-class"
         tabItems={tabItems}
