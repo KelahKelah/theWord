@@ -6,10 +6,11 @@ const Button = ({
   className,
   imgClass,
   icon,
+  onClick,
   btnAction = () => {},
 }) => {
   return (
-    <button className={`${className} b-tag`} onClick={btnAction}>
+    <button className={`${className} b-tag`} onClick={onClick}>
       {icon ? (
         <img src={icon} alt="btn-icon" className={`${imgClass} btn-icon`} />
       ) : (
@@ -19,4 +20,4 @@ const Button = ({
     </button>
   );
 };
-export { Button };
+export { Button }

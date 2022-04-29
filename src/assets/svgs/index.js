@@ -8,7 +8,8 @@ import { ReactComponent as InstagramIcon } from "./instagramIcon.svg";
 import { ReactComponent as FacebookIcon } from "./facebookIcon.svg";
 import { ReactComponent as QuestionIcon } from "./questionIcon.svg";
 import { ReactComponent as PlainWriteIcon } from "./PlainWriteIcon.svg";
-import { ReactComponent as ArrowIcon } from "./arrowIcon.svg";
+import { ReactComponent as ArrowRight } from "./arrowRight.svg";
+import { ReactComponent as ArrowLeft } from "./arrowLeft.svg";
 import Ask from "./question.svg";
 import Filter from "./filter.svg";
 import She from "./QImage.svg";
@@ -22,6 +23,9 @@ import Move from "./move.svg";
 import Dropper from "./dropper.svg";
 import Write from "./write.svg";
 import ModalIcon from "./modalIcon.svg";
+import { ReactComponent as PenIcon } from "./penIcon.svg";
+import { ReactComponent as TextIcon } from "./textIcon.svg";
+import { ReactComponent as AlignIcon } from "./alignIcon.svg";
 
 export {
   Eyes,
@@ -36,7 +40,8 @@ export {
   DevIcon,
   QuestionIcon,
   PlainWriteIcon,
-  ArrowIcon,
+  ArrowRight,
+  ArrowLeft,
   She,
   She2,
   Down,
@@ -48,4 +53,7 @@ export {
   Dropper,
   Write,
   ModalIcon,
+  PenIcon,
+  TextIcon,
+  AlignIcon,
 };
