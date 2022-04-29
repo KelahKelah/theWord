@@ -13,9 +13,15 @@ import Ask from "./question.svg";
 import Filter from "./filter.svg";
 import She from "./QImage.svg";
 import She2 from "./QImage.svg";
-import { ReactComponent as Down } from './down.svg';
-import { ReactComponent as Up } from './up.svg';
-import { ReactComponent as Right } from './up.svg';
+import { ReactComponent as Down } from "./down.svg";
+import { ReactComponent as Up } from "./up.svg";
+import { ReactComponent as Right } from "./up.svg";
+import Banner from "./banner.svg";
+import LetterA from "./letterA.svg";
+import Move from "./move.svg";
+import Dropper from "./dropper.svg";
+import Write from "./write.svg";
+import ModalIcon from "./modalIcon.svg";
 
 export {
   Eyes,
@@ -33,7 +39,13 @@ export {
   ArrowIcon,
   She,
   She2,
-  Down, 
+  Down,
   Up,
-  Right
+  Right,
+  Banner,
+  LetterA,
+  Move,
+  Dropper,
+  Write,
+  ModalIcon,
 };
