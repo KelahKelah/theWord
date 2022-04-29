@@ -17,11 +17,16 @@ export const QuestionPage = () => {
   return (
     <div className="question-page">
       <div className="page-banner">
-        <img
-          src={Banner}
-          alt="page banner"
-          onClick={() => push("/ask_questions")}
-        />
+        <img src={Banner} alt="page banner" className="banner-img" />
+        <div className="question-page-btn-div">
+          <Button
+            buttonName="Ask Question"
+            icon={Ask}
+            imgClass="btn-icon"
+            className="question-page-btn"
+            onClick={() => push("/ask_questions")}
+          />
+        </div>
       </div>
       <Tab
         className="tab-class"

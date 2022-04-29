@@ -1,14 +1,7 @@
 import React from "react";
 import "./button.css";
 
-const Button = ({
-  buttonName,
-  className,
-  imgClass,
-  icon,
-  onClick,
-  btnAction = () => {},
-}) => {
+const Button = ({ buttonName, className, imgClass, icon, onClick }) => {
   return (
     <button className={`${className} b-tag`} onClick={onClick}>
       {icon ? (
@@ -20,4 +13,4 @@ const Button = ({
     </button>
   );
 };
-export { Button }
+export { Button };

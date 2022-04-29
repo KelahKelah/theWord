@@ -2,8 +2,9 @@
   width: 100%;
 }
 
-.page-banner img {
+.page-banner .banner-img {
   width: 100%;
+  position: relative;
 }
 
 .question-page-header {
@@ -25,14 +26,23 @@
 }
 
 .question-page-btn-div {
-  margin-top: 20px;
+  position: absolute;
+  top: 18%;
+  left: 4%;
 }
 
 .question-page-btn {
   background-color: #ffb800;
+  /* width: 100%; */
   color: black;
   border-radius: 4px !important;
   font-size: 0.875rem;
+  padding: 5px 10px;
+}
+
+.btn-icon {
+  width: 18px;
+  height: 18px;
 }
 
 .question-page-header .banner-img {
