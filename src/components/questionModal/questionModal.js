@@ -11,11 +11,7 @@ export const QuestionModal = ({ modalText, btnAction }) => {
         <p>{modalText}</p>
       </div>
       <div className="btn-div">
-        <Button
-          buttonName="Close"
-          className="modal-btn"
-          btnAction={btnAction}
-        />
+        <Button buttonName="Close" className="modal-btn" onClick={btnAction} />
       </div>
     </div>
   );

@@ -8,9 +8,19 @@ import { TextField } from "../../../../components/textField/textField";
 import "./askQuestion.css";
 
 export const AskQuestion = ({ pic }) => {
+  const { push } = useHistory();
   const [modalState, setModalState] = useState(false);
 
-  const { push } = useHistory();
+  const handleSubmitQuestion = (e) => {
+    e.preventDefault();
+    setModalState(true);
+  };
+
+  const handleRedirection = (e) => {
+    e.preventDefault();
+    push("/question_answer");
+    console.log("first");
+  };
 
   return (
     <div className="ask-question">
@@ -58,7 +68,7 @@ export const AskQuestion = ({ pic }) => {
           type="submit"
           buttonName="Submit"
           className="ask-question-btn"
-          btnAction={() => setModalState("true")}
+          onClick={(e) => handleSubmitQuestion(e)}
         />
       </form>
 
@@ -67,7 +77,7 @@ export const AskQuestion = ({ pic }) => {
           modalText="
         Your question has been submitted sucessfully. The team would answer
         your question in a bit, please hold on...."
-          btnAction={() => push("/question_answer")}
+          btnAction={(e) => handleRedirection(e)}
         />
       ) : (
         ""

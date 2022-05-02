@@ -206,4 +206,8 @@
     .question-page-btn {
         width: 100%;
     }
+
+    .qa-reactions li {
+        margin-right: 0px;
+    }
 }

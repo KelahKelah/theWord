@@ -112,7 +112,6 @@ export const QuestionAnswer = ({ pic }) => {
           buttonName="Post Answer"
           icon={Ask}
           className="question-page-btn"
-          //   btnAction={() => push("/")}
         />
       </div>
     </div>

@@ -8,7 +8,7 @@ const Button = ({ buttonName, className, imgClass, icon, onClick }) => {
         <img src={icon} alt="btn-icon" className={`${imgClass} btn-icon`} />
       ) : (
         ""
-      )}{" "}
+      )}
       {buttonName}
     </button>
   );
