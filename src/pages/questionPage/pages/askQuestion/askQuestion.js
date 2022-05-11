@@ -19,7 +19,6 @@ export const AskQuestion = ({ pic }) => {
   const handleRedirection = (e) => {
     e.preventDefault();
     push("/question_answer");
-    console.log("first");
   };
 
   return (
